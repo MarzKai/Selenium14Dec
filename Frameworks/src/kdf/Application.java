@@ -19,6 +19,7 @@ public class Application { // This is the main class which we will execute. It c
 		
 		Methods mtd = new Methods(); //Object for Methods Class is created.
 		
+		// Making changes to Project after R1.1(Release 1.1)
 		for(int i = 1; i<data.length;i++) { // "data.length" will give the Number of Rows in the Excel Sheet
 			switch(data[i][3]) {// Pick the Key Words. The Key Words are in the 3rd column and i th Rows.
 			case "openBrowser": // eg. Key Word is "openBrowser", then i have to write the Line to Open Chrome Browser(this is added in the "Methods" Class) so that these Methods can be used in Multiple Scripts. 
